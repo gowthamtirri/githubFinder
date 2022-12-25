@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://bootswatch.com/4/litera/bootstrap.min.css"
+    />
+    <title>GitHub Finder | Gowtham</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-primary mb-3">
+      <div class="container">
+        <a href="#" class="navbar-brand">GitHub Finder</a>
+      </div>
+    </nav>
+    <div class="container searchContainer">
+      <div class="search card card-body shadow">
+        <h1>Search GitHub User</h1>
+        <p class="lead">Enter a user name to fetch profile</p>
+        <input
+          type="text"
+          id="searchUser"
+          class="form-control"
+          placeholder="Enter Username..."
+        />
+      </div>
+      <div id="profile"> </div>
+      <div id="repos"></div>
+    <footer class="mt-5 p-3 text-center bg-light ">
+      GitHub Finder &copy Built with ❤️ by Gowtham Tirri
+    </footer>
+
+
+    <!-- javascript files -->
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
